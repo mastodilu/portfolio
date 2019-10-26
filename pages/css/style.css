@@ -1,0 +1,22 @@
+.smallimg {
+    float: left;
+    max-height: 150px;
+    width: auto;
+    /* padding-right: 1.25rem; */
+}
+
+.table td {
+    border-top: 0px;
+}
+
+.table td:nth-child(1) {
+    width: 160px;
+}
+
+.mycard .mycard-title {
+    font-size: 2rem;
+}
+
+.card-body {
+    padding: 0;
+}
