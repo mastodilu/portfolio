@@ -4,142 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- bootstrap -->
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Chilanka|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet"> 
   <title>Matteo's Portfolio</title>
 </head>
 <body>
 
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">mastodilu</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">about me <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">projects</a>
-        </li>
-      </ul>
-    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/BLUE_GLASSES_GOPHER.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <span class="lightcoral ml-3">Matteo</span>
+      </a>
+    </nav>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="content">
+            <h1>Hi, I'm Matteo</h1>
+            <h3>I write code for passion.</h3>
+            <a href="https://github.com/mastodilu/"  class="btn btn-dark btn-lg mt-3" role="button" target="_blank">My GitHub <i class="fab fa-github-alt ml-2"></i></a>
+            <!-- <button class="btn btn-dark btn-lg mt-3">View my github</button> -->
+          </div>
+        </div>
+      </div>
   </nav>
 
-  <div class="container">
-
-    <div class="row">
-      <div class="col">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, fuga quas esse sit nemo minima consequuntur sed dolorem optio in magni eveniet cumque dolor reprehenderit fugit corporis suscipit quisquam laborum.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-12 col-md-4">
-        <h2>What I Do</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, fuga quas esse sit nemo minima consequuntur sed dolorem optio in magni eveniet cumque dolor reprehenderit fugit corporis suscipit quisquam laborum.</p>
-      </div>
-      <div class="col-sm-12 col-md-4">
-        <img src="../img/pika.jpg" class="img-fluid" alt="Responsive image">
-      </div>
-      <div class="col-sm-12 col-md-4">
-        <h2>What I Like</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, fuga quas esse sit nemo minima consequuntur sed dolorem optio in magni eveniet cumque dolor reprehenderit fugit corporis suscipit quisquam laborum.</p>                
-      </div>
-    </div>
-
-  </div>
-
-  <hr>
-
-  <div class="container">
-    <!-- bootstrap cards -->
-
-    <div class="row">
-      <div class="d-none d-md-block col-md-1"></div>
-      <div class="card col-md-10">
-        <div class="card-body">
-          <table class="table mb-0">
-            <tbody>
-              <tr>
-                <td>
-                  <img src="../img/dr.strange.png" class="smallimg" alt="...">
-                </td>
-                <td class="align-middle">
-                  <h5 class="card-title">GoWebDev</h5>
-                  <p class="card-text">A very well made tutorial focused on web development with the Go programming language.</p>
-                  <a href="https://github.com/mastodilu/GoWebDev" target="_blank" class="btn btn-dark btn-sm float-right align-right">View in GitHub</a>
-               </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="d-none d-md-block col-md-1"></div>
-      <div class="card col-md-10">
-        <div class="card-body">
-          <table class="table mb-0">
-            <tbody>
-              <tr>
-                <td>
-                  <img src="../img/dr.strange.png" class="smallimg" alt="...">
-                </td>
-                <td class="align-left align-middle">
-                  <h5 class="card-title">GoErrors1.13</h5>
-                  <p class="card-text">A brief example that shows how to handle errors with Go version 1.13.</p>
-                  <a href="https://github.com/mastodilu/GoErrors1.13" target="_blank" class="btn btn-dark btn-sm float-right align-right align-bottom">View in GitHub</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-  <div class="row">
-    <div class="d-none d-md-block col-md-1"></div>
-    <div class="card col-md-10">
-      <div class="card-body">
-        <table class="table mb-0">
-          <tbody>
-            <tr>
-              <td>
-                <img src="../img/dr.strange.png" class="smallimg" alt="...">
-              </td>
-              <td class="align-middle">
-                <h5 class="card-title">go-singleton</h5>
-                <p class="card-text">Just a simple example on how to implement the singleton pattern in Go.</p>
-                <a href="https://github.com/mastodilu/go-singleton" target="_blank" class="btn btn-dark btn-sm float-right align-right align-bottom">View in GitHub</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
 </div>
-  
 
-  
+<nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom">
+    <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.linkedin.com/in/matteo-di-lucchio-735b33157" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://github.com/mastodilu" target="_blank"><i class="fab fa-github-alt ml-4"></i></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="mailto:matteo.dilucchio@edu.unito.it"><i class="far fa-envelope ml-4"></i></a>
+        </li>
+    </ul>
+</nav>
+
+
   <!-- import javascript for BOOTSTRAP -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/37e8ad16d6.js" crossorigin="anonymous"></script>
 </body>
 </html>
