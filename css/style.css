@@ -11,13 +11,10 @@ html {
 }
 
 .content {
-    color: whitesmoke;
+    color: lightgreen;
     padding-top: 30vh;
 }
 
-.lightcoral {
-    color: lightcoral;
-}
 
 .bg-dark {
     background-color: rgba(52, 58, 64, 0.5)!important;
@@ -39,7 +36,12 @@ a:hover, a:active, a:focus {
     font-size: 1.5rem;
 }
 
-.footer .nav-link {
+.navbar-dark .navbar-nav .active>.nav-link {
     padding-top: 0;
     padding-bottom: 0;
+    color: lightcoral;
+}
+
+.lightcoral {
+    color: lightcoral;
 }
